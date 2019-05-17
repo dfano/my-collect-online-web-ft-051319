@@ -1,6 +1,6 @@
-def my_collect
+def my_collect(arr)
 	new_arr = []
-	self.each do |elem|
+	arr.each do |elem|
 		new_arr << yield(elem)
 	end
 	new_arr
